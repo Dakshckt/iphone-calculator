@@ -1,0 +1,133 @@
+
+*{
+    font-family:arial;
+}
+table td{
+    /* border:1px solid black; */
+    text-align:center;
+    height:50px;
+    width:50px;
+    font-size:35px;
+    padding:5px;
+    background-color: rgb(28,28,28);
+    
+}
+.inputBox{
+    height:150px;
+    width:90%;
+    font-size:120px;
+    border-radius:0%;
+    border:1px solid rgb(28,28,28);
+    background-color:rgb(28,28,28);
+    color:white;
+    text-overflow:ellipsis;
+}
+.inputBox:active{
+    border:rgb(28,28,28);
+}
+.numberDesignZeroLeft{
+    height:90px;
+    width:90px;
+    border-right:none;
+    border-radius:50%;
+    border-top-right-radius:0%;
+    border-bottom-right-radius:0%;
+    display: flex;
+    justify-content: center;
+    align-items:center;   
+    background-color: rgb(41, 39, 39);
+    font-weight:540;
+    color:white;
+}
+.numberDesignZeroRight{
+    height:90px;
+    width:90px;
+    border-left:none;
+    border-radius:50%;
+    border-top-left-radius:0%;
+    border-bottom-left-radius:0%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(41, 39, 39);
+    color:rgb(41, 39, 39);
+    font-weight:540;
+    padding-left:0%;
+
+}
+.numberDesignZeroLeft:hover{
+    background-color:rgb(49 , 47 , 47);
+}
+.numberDesignZeroRight:hover{
+    background-color:rgb(49 , 47 , 47);
+    color:rgb(49 , 47 , 47);
+}
+.numberDesignZeroLeft:active{
+    background-color:rgb(69 , 67 , 67);
+}
+.numberDesignZeroRight:active{
+    background-color:rgb(69 , 67 , 67);
+    color:rgb(69 , 67 , 67);
+}
+
+
+.numberDesign{
+    height:90px;
+    width:90px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    background-color:rgb(41, 39, 39);
+    font-weight:540;
+}
+.numberDesign:hover{
+    background-color:rgb(49 , 47 , 47)
+}
+.numberDesign:active{
+    background-color:rgb(69 , 67 , 67)
+}
+
+.specialDesign{
+    height:90px;
+    width:90px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:bleck;
+    font-weight:540;
+    background-color:rgb(193, 190, 190);
+}
+.specialDesign:hover{
+    background-color:rgb(220 , 217 , 217)
+}
+.specialDesign:active{
+    background-color:rgb(240 , 237 , 237)
+}
+
+.operatorDesign{
+    height:90px;
+    width:90px;
+    border-radius:50%;
+    font-size:32px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight:540;
+    color:white;
+    background-color:rgb(249, 165, 8);
+}       
+.operatorDesign:hover{
+    background-color:rgb(269, 185, 28);
+}
+.operatorDesign:active{
+    background-color:rgb(289, 215, 48);
+}
+
+
+
+#top{
+    border-radius:0%;
+}
